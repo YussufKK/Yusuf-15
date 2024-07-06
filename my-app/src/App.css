@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f0f0f0;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.personal-info h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.personal-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.personal-info a:hover {
+  text-decoration: underline;
+}
+
+.skills, .experience, .education {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  background-color: #e6f7ff; /* Light Blue */
+}
+
+.experience {
+  background-color: #fff0f5; /* Lavender Blush */
+}
+
+.education {
+  background-color: #f0f8ff; /* Alice Blue */
+}
+
+.skill, .experience-entry, .education-entry {
+  margin-bottom: 15px;
+}
+
+.skill h3, .experience-entry h3, .education-entry h3 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.skill p, .experience-entry p, .education-entry p {
+  color: #666;
+}
+@media (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+  
+  .personal-info h1 {
+    font-size: 2em;
+  }
+  
+  .skills, .experience, .education {
+    padding: 10px;
+  }
+  
+  .skills h2, .experience h2, .education h2 {
+    font-size: 1.5em;
+  }
+}
+
+
+
